@@ -26,30 +26,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-ALS0.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-ALS0.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-ARPT-T460.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-ARPT-T460.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-CPU.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-CPU.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-EC-USBX.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -58,83 +34,67 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-HACK-T460.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-HACK-T460.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-IGPU-T460.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-IGPU-T460.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-LPC-T460.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-LPC-T460.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-PNLF-T460.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PNLF-T460.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-PS2K-T460.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PS2K-T460.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-PTS.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PTS.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-SMBUS-T460.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-SMBUS-T460.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-XHC-T460.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-XHC-T460.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-XOSI.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-XOSI.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-PLUG.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-PLUG.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Spoof-SSDT.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>Spoof-SSDT.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-HACK-T560.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-HACK-T560.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-LPC-T560.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-LPC-T560.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-PNLF-T560.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PNLF-T560.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-PS2K-T560.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PS2K-T560.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-SMBUS-T560.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-SMBUS-T560.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ssdt.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>ssdt.aml</string>
 			</dict>
 		</array>
 		<key>Block</key>
@@ -533,6 +493,22 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>USBPorts.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -700,7 +676,7 @@
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>Misc</key>
@@ -787,7 +763,7 @@
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>DefaultBackgroundColor</key>
-				<data>v7+/AA==</data>
+				<data>AAAAAA==</data>
 				<key>UIScale</key>
 				<data>AQ==</data>
 			</dict>
@@ -796,7 +772,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 -wegnoegpu alcid=15</string>
+				<string>keepsyms=1 alcid=15</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>nvda_drv</key>

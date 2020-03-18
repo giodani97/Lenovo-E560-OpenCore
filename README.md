@@ -1,7 +1,7 @@
 # Lenovo-E560-OpenCore
 OpenCore EFI Bootloader for Lenovo Thinkpad E560
 
-Converted from [@rsdev69 's repository](https://github.com/rsdev69/Lenovo-E560-Clover) following the [OpenCore Vanilla Desktop Guide](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/)
+Created following the [OpenCore Vanilla Desktop Guide](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/) and utilising @tluck 's [SSDT patches for T560](https://github.com/tluck/Lenovo-T460-Clover/tree/master/DSDT.T560)
 
 ## Instructions
 #### 1. Clone this Repository
@@ -32,7 +32,7 @@ Examples:
 ![Example](./screenshot/Screenshot_5.png)
 
 #### 9. FileVault
-This is optional, but if you are transitioning from Clover and you have FileVault activated, follow the steps from the FileVault Section on the [OpenCore Vanilla Desktop Guide](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/post-install/security#FileVault)
+This is optional but if you are transitioning from Clover and you have FileVault activated or you just want to activate FileVault, change `FirmwareVolume` to YES.
 
 #### 10. Save your config.plist and place the *OC* folder inside the *EFI* folder of your boot volume
 
