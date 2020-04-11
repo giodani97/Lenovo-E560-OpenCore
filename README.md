@@ -32,7 +32,7 @@ Examples:
 ![Example](./screenshot/Screenshot_5.png)
 
 #### 9. FileVault
-This is optional but if you are transitioning from Clover and you have FileVault activated or you just want to activate FileVault, change `FirmwareVolume` to YES.
+This is optional but if you are transitioning from Clover and you have FileVault activated or you just want to activate FileVault, change `FirmwareVolume` to YES under `UEFI/Protocols`.
 
 #### 10. Save your config.plist and place the *OC* folder inside the *EFI* folder of your boot volume
 
