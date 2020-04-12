@@ -32,10 +32,16 @@ Examples:
 ![Example](./screenshot/Screenshot_5.png)
 
 #### 9. FileVault
-This is optional but if you are transitioning from Clover and you have FileVault activated or you just want to activate FileVault, change `FirmwareVolume` to YES under `UEFI/Protocols`.
+This is optional but if you are transitioning from Clover and you have FileVault activated or you just want to activate FileVault, change `FirmwareVolume` to YES under `UEFI->Protocols`.
 
 #### 10. Save your config.plist and place the *OC* folder inside the *EFI* folder of your boot volume
 
+#### 11. Three and Four finger gestures
+As explained by @1Revenger1 three and four finger gestures are sent as a key combo and need to be assigned in the keyboard settings.
+So after booting up Mac OS using the configuration of this repo go to `Settings->Keyboard->Shortcuts` and assign the gestures.
+Select a shortcut, click on the previous shortcut and perform the gesture. Repeat for every gesture.
+Example:
+![Example](.screenshot/Recording1.gif)
 
 ## What does it works
 
