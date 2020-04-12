@@ -41,7 +41,7 @@ As explained by @1Revenger1 three and four finger gestures are sent as a key com
 So after booting up Mac OS using the configuration of this repo go to `Settings->Keyboard->Shortcuts` and assign the gestures.
 Select a shortcut, click on the previous shortcut and perform the gesture. Repeat for every gesture.
 Example:
-![Example](.screenshot/Recording1.gif)
+![Example](./screenshot/Recording1.gif)
 
 ## What does it works
 
